@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    background:#3498db;
+    font-family: 'Poppins';
+}
+
+.container{
+    border-radius: 8px;
+    box-shadow: 2px 12px 18px #CCC;
+    width:90%;
+    /* height: 90vh; */
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding: 8px;
+    background: #ecf0f1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text{
+    text-align: center;
+    margin: 2em auto;
+    flex-grow: 0;
+}
+
+.main-text h1{
+   padding-top: 1em;
+   margin:0;
+}
+
+.main-text p{
+    margin:0;
+}
+
+.lot-id{
+    color:#2ecc71;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    flex-grow: 1;
+}
+

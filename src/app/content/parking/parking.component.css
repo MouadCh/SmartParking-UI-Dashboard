@@ -1,0 +1,32 @@
+
+/* display-box */
+
+.display-box{
+    padding: 2em;
+    background: #2c3e50;
+
+    border-radius: 2%;
+    min-height: 450px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(6em,1fr));
+    grid-gap:1.5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.lot-box{
+    border-radius: 6px;
+    background: #2ecc71;
+    width: 5em;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.inactive{
+    background: #c0392b !important;
+}
+/* --display-box */

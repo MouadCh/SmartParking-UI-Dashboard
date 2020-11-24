@@ -1,0 +1,17 @@
+<div  *ngIf="showParking == true">
+    <div class="display-box">
+        <div *ngFor=" let pos of positions ; let myIndex = index">
+            <div id="{{myIndex}}" class="lot-box {{pos}}">{{myIndex}}</div>
+        </div>
+    </div>
+</div >
+
+<div  *ngIf="showParking == false">
+    <div class="display-box">
+        <div style="width: 400px; height: 220px; background-color: rgba(128, 128, 128, 0.63);"  class="lot-box ">
+           <span    style="color: rgb(219, 193, 193); font-size: larger; font-weight: bolder;">
+                Server is Off !!
+            </span   > 
+        </div>
+    </div  >
+</div>

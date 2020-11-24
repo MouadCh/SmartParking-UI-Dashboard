@@ -1,0 +1,60 @@
+/* data-box */
+.data-box{
+    padding-top:1rem; 
+    background: #607d8bb8;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem 2.5rem 2.5rem auto;
+    justify-items: center;
+    align-items: center;
+    
+    border-radius: 5%;
+    height: 100%;
+
+    margin-right: 10px;
+}
+
+.title{
+    font-size: larger;
+    font-weight: bold; 
+    color: #383d42 ;
+}
+
+.m-para{
+    font-size: 1.5em;
+    grid-column: 1/span 2;
+    grid-row: 1/2;
+}
+
+.total-para{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.total-data{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.avail-para{
+    grid-column: 1/2;
+    grid-row: 3/4;  
+}
+
+.avail-data{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.location{
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.location i{
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}
+/* --data-box */
