@@ -69,16 +69,17 @@ Install the Angular CLI globally:
 npm install -g @angular/cli
 ```
 
-Create workspace:
+Create workspace enviroment :
+    to creat node_modules for your app
 
 ```
-ng new [PROJECT NAME]
+cd [PROJECT NAME]
+npm install
 ```
 
 Run the application:
 
 ```
-cd [PROJECT NAME]
 ng serve
 ```
 
